@@ -1,0 +1,34 @@
+body {
+  background-color: black;
+}
+
+.bkg-img-cover {
+  background-image: url(../images/bg_img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 1000px;
+}
+
+.centered {
+  vertical-align: middle;
+}
+
+/* FONTS */
+.display1 {
+    font-family: 'Crimson Text', serif;
+    color: white;
+    font-size: 70px;
+    letter-spacing: 2px;
+}
+
+.fas {
+  color: white;
+  font-size: 50px;
+}
+
+/* COLORS */
+
+.slides {
+  background-color: #000000;
+}
