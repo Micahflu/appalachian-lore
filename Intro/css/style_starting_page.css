@@ -1,7 +1,7 @@
+/* BODY AND BACKGROUNDS */
 body {
   background-color: black;
 }
-
 .bkg-img-cover {
   background-image: url(../images/bg_img.jpg);
   background-repeat: no-repeat;
@@ -9,10 +9,10 @@ body {
   width: 100%;
   height: 1000px;
 }
+/* BODY AND BACKGROUNDS */
 
-.centered {
-  margin-top: 20%;
-}
+
+
 
 /* FONTS */
 .display1 {
@@ -21,15 +21,84 @@ body {
     font-size: 70px;
     letter-spacing: 2px;
 }
+.display2 {
+    font-family: 'Crimson Text', serif;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+}
+.bodytext1 {
+  font-family: 'Raleway', sans-serif;
+  color: #000;
+  font-size: 15px;
+  letter-spacing: 1.2px;
+}
+.bodytext2 {
+  font-family: 'Raleway', sans-serif;
+  color: #737373;
+  font-size: 15px;
+  letter-spacing: 1.2px;
+}
+.centered-text {
+  text-align: center;
+}
 
 .fas {
   color: white;
   font-size: 40px;
-  padding-top: 1.5rem;
+  padding-top: 6rem;
 }
+/* FONTS */
 
-/* COLORS */
 
-.slides {
-  background-color: #000000;
+
+
+
+/* PADDING, ALIGNMENT, AND MARGINS */
+.padding {
+    padding: 3rem !important;
 }
+.padding-top {
+    padding-top: 2rem;
+}
+.padding-bottom {
+    padding-bottom: 3rem;
+}
+.padding-right {
+    padding-right: 3rem;
+}
+.padding-left {
+  padding-left:4rem;
+}
+.padding-sides {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.centered {
+  margin-top: 40%;
+}
+.vertical-center {
+    display: flex;
+    align-items: center;
+}
+/* PADDING, ALIGNMENT, AND MARGINS */
+
+
+
+
+
+/* FANCY STUFF */
+stuck {
+  min-height: 500px;
+  attachment: fixed;2
+  position: center;
+  repeat: no-repeat;
+  size: cover;
+}
+#row1 {
+    background-color: black;
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+}
+/* FANCY STUFF */

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<title>Lore of Appalachia</title>
+
+	<!-- stylesheets -->
+	<link href="https://unpkg.com/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+
+	<!-- font awesome -->
+	<script src="https://kit.fontawesome.com/10894d2635.js" crossorigin="anonymous"></script>
+
+	<!-- css -->
+	<link rel="stylesheet" href="css/style_starting_page.css">
+
+</head>
+
+<!-- body -->
+<body>
+
+<!-- project introduction / jumbotron -->
+	<div class="container-fluid padding-top">
+		<div class="row justify-content-center vertical-center" id="row1">
+			<div class="col-8">
+				<div class="centered-text padding-bottom">
+					<h1 class="display1 padding-top">Lore of Appalachia</h1>
+					<p class="bodytext1" id="animate-text">SHINING A LIGHT ON THE FOLKTALES OF APPALACHIA</p>
+					<div class="row justify-content-center">
+					<i class="fas fa-chevron-down"></i>
+			</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- end jumbotron -->
+
+<!-- quote block -->
+	<div class="container-fluid padding-top">
+		<div class="row justify-content-center">
+			<div class="col-6">
+				<div class="centered-text padding-bottom">
+					<h2 class="display2 padding-top">“Pay heed to the tales of old wives. It may well be that they alone keep in memory what it was once needful for the wise to know.”</h2>
+					<p class="padding-top bodytext2">J.R.R. TOLKIEN</p>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- quote block -->
+
+
+	<div class="container-fluid">
+		<div class="row justify-content-center">
+			<div class="col-10">
+				<img class="image-fluid" src="images/mock_board.jpg">
+		</div>
+	</div>
+</div>
+
+
+	<!-- footer -->
+	<footer class="footer">
+
+	</footer>
+
+	<!-- javascript dependencies: jQuery, Popper.js, Bootstrap JS -->
+	<script src="https://unpkg.com/jquery/dist/jquery.min.js"></script>
+	<script src="https://unpkg.com/popper.js/dist/umd/popper.min.js"></script>
+	<script src="https://unpkg.com/bootstrap/dist/js/bootstrap.min.js"></script>
+
+	<script src="js/anime.min.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+
+	<script>
+	// animate the subhead in the intro
+	anime({
+		targets: '#animate-text',
+		translateY: 60,
+		color: '#FFFFFF',
+		duration: 2000,
+		scale: 1.5,
+		easing: 'easeInOutQuad'
+        });
+
+		// animate the intro replacement
+		jQuery(document).ready(function() {
+			$('#row1').waypoint(function() {
+				var CSStransforms =
+
+		anime({
+			targets: '#row1',
+			opacity: 0,
+			duration: 8000,
+			easing: 'easeInOutQuad'
+					});
+
+				}, {offset: '80%'}
+			);
+		});
+
+		</script>
+
+</body>
+
+</html>
