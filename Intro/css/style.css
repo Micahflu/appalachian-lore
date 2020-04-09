@@ -73,6 +73,9 @@ body {
 .padding-bottom {
     padding-bottom: 3rem;
 }
+.double-padding-bottom {
+    padding-bottom: 6rem;
+}
 .padding-right {
     padding-right: 3rem;
 }
