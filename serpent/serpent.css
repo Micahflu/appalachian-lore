@@ -1,56 +1,160 @@
 
+
+
+/* BACKGROUNDS */
+#cork {
+  background-image: url('images/cork.jpg');
+  background-position: center;
+  background-repeat: repeat;
+  background-size: 100%;
+}
+
+#bg-color {
+  background-image: url('images/texture2.jpg');
+  background-position: center;
+  background-repeat: repeat;
+  width: 90%;
+
+}
+#footer-img{
+  background-image: url('images/footer.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 250px;
+}
+
+.parallax-img {
+  background-image: url('images/SM%20Image.JPG');
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.quote {
+  background-image: url('images/pull_quote_test.png');
+  min-height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+
+.footer2 {
+  background-image: url('images/footer-slip.png');
+  min-height: 75px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  margin-top: 3rem;
+}
+/* BACKGROUNDS */
+
+
+
+/* FONTS */
+
+.firstcharacter {
+color: black;
+  float: left;
+  font-family: 'Crimson Text', serif;
+  font-size: 90px;
+  line-height: 30px;
+  padding-top: 4px;
+  padding-right: 4px;
+}
+.display-1 {
+  position: relative;
+  text-align: left;
+  font-family: 'Crimson Text', serif;
+  font-size: 30px;
+  letter-spacing: 1.2px;
+}
 p {
   font-family: 'Crimson Text', serif;
   font-size: 20px;
+  letter-spacing: 0.7px;
+
 }
 
 h1 {
   font-family: 'Crimson Text', serif;
   font-weight: bold;
 }
-
-
-
-
-#cork {
-  background-image: url('images/corkboard4.jpg');
+.caption {
+  font-family: 'Crimson Text', serif;
+  font-size: 12px;
+  letter-spacing: 0.3px;
+  color: gray;
+  padding-top: 1.5rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  text-align: center;
 }
 
-.headline {
-  margin-bottom: 200px;
+footer a {
+  color: black;
+
+}
+footer a:hover {
+  color: black;
+  text-decoration: underline;
+  text-decoration-style: thin;
 }
 
+/* FONTS */
 
-.white-column {
-  background-color: white;
-  margin-left: 40px;
-  margin-right: 40px;
-  padding-left: 80px;
-  padding-right: 80px;
+
+
+/* PADDING, ALIGNMENT, AND MARGINS */
+.center {
+		align-items: center;
 }
-
-.white {
-  background-color: white;
-  margin-left: 40px;
-  margin-right: 40px;
+.padding {
+    padding: 3rem !important;
 }
-
-.wide-text {
-  padding-left: 350px;
-  padding-right: 350px;
-  padding-top: 200px;
-  padding-bottom: 200px;
+.padding-top {
+    padding-top: 2rem;
 }
-
-
-
-.column-text p{
-  /*padding-left: 80px;*/
-  /*padding-right: 80px;*/
-  padding-top: 200px;
-  padding-bottom: 200px;
+.double-padding-top {
+    padding-top: 4rem;
 }
+.baby-padding-top {
+    padding-top: 1.2rem;
+}
+.padding-bottom {
+    padding-bottom: 4rem;
+}
+.double-padding-bottom {
+    padding-bottom: 6rem;
+}
+.padding-right {
+    padding-right: 3rem;
+}
+.padding-left {
+  padding-left: 3rem;
+}
+.padding-sides {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.centered {
+  margin-top: 40%;
+}
+/* PADDING, ALIGNMENT, AND MARGINS */
 
+
+
+
+
+/* FANCY STUFF - INFOGRAPHICS, VIDEO, EFFECTS, ETC */
+.shadow {
+  box-shadow: 6px 12px 6px rgba(10, 10, 10, 0.5);
+}
+#infographic {
+  width: 80%;
+}
 .videoWrapper {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 */
@@ -65,32 +169,22 @@ h1 {
     height: 100%;
 }
 
-.column-images {
-  width: 90%;
-  padding-top: 200px;
+hr.style-seven {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
 }
-
-.wide-images {
-  width: 90%;
+hr.style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
 }
-
-.quote {
-  position: relative;
-  text-align: left;
-  color: black;
-}
-
-
-
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-
-
-#infographic {
-  width: 80%;
-}
+/* FANCY STUFF - INFOGRAPHICS, VIDEO, EFFECTS, ETC */

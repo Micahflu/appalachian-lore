@@ -1,0 +1,167 @@
+/* BODY AND BACKGROUNDS */
+body {
+  background-color: black;
+}
+.bkg-img-cover {
+  background-image: url(../images/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  height: 100vh;
+}
+.spooky {
+  background-image: url(../images/bg-img3.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#cork {
+  background-image: url(../images/cork2.jpg);
+  background-position: center;
+  background-repeat:no-repeat;
+  min-height:800px;
+}
+/* BODY AND BACKGROUNDS */
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.row1 {
+    position: absolute;
+    margin-top: 20%;
+}
+
+.row2 {
+    position: absolute;
+    margin-top: 30%;
+}
+
+
+/* FONTS */
+.display1 {
+    font-family: 'Crimson Text', serif;
+    color: white;
+    font-size: 70px;
+    letter-spacing: 2px;
+}
+.display2 {
+    font-family: 'Crimson Text', serif;
+    color: white;
+    font-size: 22px;
+    letter-spacing: 1.2px;
+}
+.bodytext1 {
+  font-family: 'Raleway', sans-serif;
+  color: #000;
+  font-size: 15px;
+  letter-spacing: 1.2px;
+}
+.bodytext2 {
+  font-family: 'Raleway', sans-serif;
+  color: #737373;
+  font-size: 15px;
+  letter-spacing: 1.2px;
+}
+.centered-text {
+  text-align: center;
+}
+
+.fas {
+  color: white;
+  font-size: 40px;
+  padding-top: 2rem;
+}
+
+.nav-link {
+  font-family: 'Crimson Text', serif;
+  color: white;
+  font-size: 15px;
+  letter-spacing: 1.1px;
+}
+/* FONTS */
+
+
+
+
+
+/* PADDING, ALIGNMENT, AND MARGINS */
+.padding {
+    padding: 3rem !important;
+}
+.padding-top {
+    padding-top: 2rem;
+}
+.double-padding-top {
+    padding-top: 4rem;
+}
+.mega-padding-top {
+    padding-top: 8rem;
+}
+.padding-bottom {
+    padding-bottom: 3rem;
+}
+.double-padding-bottom {
+    padding-bottom: 6rem;
+}
+.mega-padding-bottom {
+    padding-bottom: 10rem;
+}
+.padding-right {
+    padding-right: 3rem;
+}
+.padding-left {
+  padding-left: 3rem;
+}
+.padding-sides {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.centered {
+  margin-top: 70%;
+}
+.vertical-center {
+    display: flex;
+    align-items: center;
+}
+/* PADDING, ALIGNMENT, AND MARGINS */
+
+
+
+
+
+/* FANCY STUFF */
+.stuck {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#row1 {
+    background-color: black;
+    height: 700px;
+}
+#row2 {
+  opacity: 0.1;
+}
+/* FANCY STUFF */
+
+
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 1279px) {
+    .bkg-img-cover {
+       background-size: cover;
+    }
+    .row1 {
+        margin-top: 40%;
+    }
+    .row2 {
+        margin-top: 50%;
+    }
+}

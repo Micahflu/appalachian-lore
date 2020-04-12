@@ -1,0 +1,186 @@
+
+/* HEADLINE RESIZING */
+#headline-image img {
+  width: 60%;
+}
+
+/* BACKGROUNDS */
+#cork {
+  background-image: url('images/final_cork.jpg');
+  background-position: center;
+  background-repeat: repeat;
+  background-size: 100%;
+}
+
+#bg-color {
+  background-image: url('images/texture2.jpg');
+  background-position: center;
+  background-repeat: repeat;
+  width: 90%;
+}
+#footer-img{
+  background-image: url('images/footer.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 250px;
+}
+.parallax-img {
+  background-image: url('images/license_plate.jpg');
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.quote {
+  background-image: url('images/pull_quote_test.png');
+  min-height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+.footer2 {
+  background-image: url('images/footer-slip.png');
+  min-height: 75px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  margin-top: 3rem;
+}
+/* BACKGROUNDS */
+
+
+
+/* FONTS */
+.firstcharacter {
+  color: black;
+  float: left;
+  font-family: 'Crimson Text', serif;
+  font-size: 90px;
+  line-height: 30px;
+  padding-top: 4px;
+  padding-right: 4px;
+}
+.display-1 {
+  position: relative;
+  text-align: left;
+  font-family: 'Crimson Text', serif;
+  font-size: 35px;
+  letter-spacing: 1.2px;
+}
+p {
+  font-family: 'Crimson Text', serif;
+  font-size: 20px;
+  letter-spacing: 0.6px;
+}
+
+h1 {
+  font-family: 'Crimson Text', serif;
+  font-weight: bold;
+}
+.caption {
+  font-family: 'Crimson Text', serif;
+  font-size: 12px;
+  letter-spacing: 0.3px;
+  color: gray;
+  padding-top: 1.5rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  text-align: center;
+}
+footer a {
+  color: black;
+
+}
+footer a:hover {
+  color: black;
+  text-decoration: underline;
+  text-decoration-style: thin;
+}
+/* FONTS */
+
+
+
+
+/* PADDING, ALIGNMENT, AND MARGINS */
+.center {
+		align-items: center;
+}
+.padding {
+    padding: 3rem !important;
+}
+.padding-top {
+    padding-top: 2rem;
+}
+.double-padding-top {
+    padding-top: 4rem;
+}
+.baby-padding-top {
+    padding-top: 1.2rem;
+}
+.padding-bottom {
+    padding-bottom: 3rem;
+}
+.double-padding-bottom {
+    padding-bottom: 6rem;
+}
+.padding-right {
+    padding-right: 3rem;
+}
+.padding-left {
+  padding-left: 3rem;
+}
+.padding-sides {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.centered {
+  margin-top: 40%;
+}
+/* PADDING, ALIGNMENT, AND MARGINS */
+
+
+
+
+
+/* FANCY STUFF - INFOGRAPHICS, VIDEO, EFFECTS, ETC */
+.shadow {
+  box-shadow: 6px 12px 6px rgba(10, 10, 10, 0.5);
+}
+#infographic {
+  width: 100%;
+}
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+hr.style-seven {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+/* FANCY STUFF - INFOGRAPHICS, VIDEO, EFFECTS, ETC */
