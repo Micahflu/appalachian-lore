@@ -1,31 +1,28 @@
 
-/* HEADLINE RESIZING */
-#headline-image img {
-  width: 60%;
-}
+
 
 /* BACKGROUNDS */
 #cork {
-  background-image: url('images/final_cork.jpg');
+  background-image: url('stain_images/cork.jpg');
   background-position: center;
   background-repeat: repeat;
   background-size: 100%;
 }
 
 #bg-color {
-  background-image: url('images/texture2.jpg');
+  background-image: url('stain_images/texture2.jpg');
   background-position: center;
   background-repeat: repeat;
   width: 90%;
 }
 #footer-img{
-  background-image: url('images/footer.jpg');
+  background-image: url('stain_images/footer.jpg');
   background-position: center;
   background-repeat: no-repeat;
   min-height: 250px;
 }
 .parallax-img {
-  background-image: url('images/license_plate.jpg');
+  background-image: url('stain_images/a33.jpg');
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -33,7 +30,7 @@
   background-size: cover;
 }
 .quote {
-  background-image: url('images/pull_quote_test.png');
+  background-image: url('stain_images/pull_quote_test.png');
   min-height: 150px;
   background-repeat: no-repeat;
   background-position: center;
@@ -41,7 +38,7 @@
   width: 100%;
 }
 .footer2 {
-  background-image: url('images/footer-slip.png');
+  background-image: url('stain_images/footer-slip.png');
   min-height: 75px;
   background-repeat: no-repeat;
   background-position: center;
@@ -67,8 +64,8 @@
   position: relative;
   text-align: left;
   font-family: 'Crimson Text', serif;
-  font-size: 30px;
-  letter-spacing: 1px;
+  font-size: 35px;
+  letter-spacing: 1.2px;
 }
 p {
   font-family: 'Crimson Text', serif;
@@ -150,7 +147,7 @@ footer a:hover {
   box-shadow: 6px 12px 6px rgba(10, 10, 10, 0.5);
 }
 #infographic {
-  width: 100%;
+  width: 80%;
 }
 .videoWrapper {
     position: relative;
