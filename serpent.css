@@ -54,6 +54,45 @@
 /* BACKGROUNDS */
 
 
+/* STYLES FOR NAV */
+.navbar {
+  min-height: 50px;
+  background-color: black;
+}
+.dropdown-menu {
+  font-family: 'Crimson Text', serif;
+  color: white;
+  font-size: 15px;
+  letter-spacing: 1.1px;
+  background-color: black;
+}
+.nav-link {
+  font-family: 'Crimson Text', serif;
+  color: white;
+  font-size: 15px;
+  letter-spacing: 1.1px;
+}
+.navbar-brand {
+  font-family: 'Crimson Text', serif;
+  color: white;
+  font-size: 22px;
+  letter-spacing: 1.2px;
+}
+.return {
+  font-family: 'Crimson Text', serif;
+  color: white;
+  font-size: 15px;
+  letter-spacing: 1.1px;
+}
+.return:hover {
+  font-family: 'Crimson Text', serif;
+  color: white;
+  font-size: 15px;
+  letter-spacing: 1.1px;
+  text-decoration: underline;
+}
+/* STYLES FOR NAV */
+
 
 /* FONTS */
 

@@ -27,6 +27,32 @@
 <body>
 
   <!-- Entire content container that has the corkboard background -->
+
+  <!-- navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black sticky-top">
+
+      <a class="navbar-brand" href="index.html">
+      <img src="images/lore-logo2.jpg" width="30" height="30" alt="">
+      </a>
+
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select Your Story</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="mothman.html">Point Pleasant Mothman</a>
+            <a class="dropdown-item" href="majestic.html">Majestic Theater</a>
+            <a class="dropdown-item" href="serpent.html">The Serpent Mound</a>
+            <a class="dropdown-item" href="stain.html">Margaret Shilling</a>
+            <a class="dropdown-item" href="moonville.html">Moonville Tunnel</a>
+          </div>
+        </li>
+      </ul>
+
+      <a class="return ml-auto" href="http://2020.soulofathens.com">Soul of Athens</a>
+
+  </nav>
+  <!-- navigation -->
+
   <div id="cork" class="container-fluid">
     <div id="bg-color" class="container-fluid">
 
@@ -46,8 +72,7 @@
         <!-- Video -->
         <div class="row">
           <div class="col-lg-12 videoWrapper">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/2v8mvwCGnnU" frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe src="https://player.vimeo.com/video/406913089" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
           </div>
         </div>
 
@@ -121,7 +146,7 @@
             <!-- Content Section 4 (Infographic) -->
             <div class="row">
               <div class="col-lg-12 text-center">
-                <img id="infographic" src="mothman_images/Mothman_Infographic.png">
+                <img id="infographic" src="mothman_images/mothman_info.png">
               </div>
               </div>
 
@@ -182,9 +207,6 @@
 
 
 
-</body>
-
-
 
 <footer>
   <div id="footer-img">
@@ -204,7 +226,22 @@
 
 
 
+<!-- JavaScript dependencies: first jQuery, then Popper.js, then Bootstrap JS -->
+<script src='https://unpkg.com/jquery/dist/jquery.min.js'></script>
+<script src='https://unpkg.com/popper.js/dist/umd/popper.min.js'></script>
+<script src='https://unpkg.com/bootstrap/dist/js/bootstrap.min.js'></script>
 
+<!-- JS files for this project -->
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/scrolling.js"></script>
+
+<script src="js/anime.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+
+
+
+
+</body>
 
 
 

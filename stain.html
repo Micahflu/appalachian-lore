@@ -5,13 +5,12 @@
   	<link rel="shortcut icon" type="image/jpg" href="images/lore-logo.jpg"/>
 
   <!-- Required meta tags -->
-  <link rel="shortcut icon" type="image/jpg" href="images/lore-logo.jpg"/>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Margaret Shilling</title>
 
   <!-- Bootstrap CSS -->
-  <link href="https://unpkg.com/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&display=swap" rel="stylesheet">
@@ -25,11 +24,40 @@
 
 </head>
 
+
 <body>
 
+
   <!-- Entire content container that has the corkboard background -->
+
+  <!-- navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black sticky-top">
+
+      <a class="navbar-brand" href="index.html">
+      <img src="images/lore-logo2.jpg" width="30" height="30" alt="">
+      </a>
+
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select Your Story</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="mothman.html">Point Pleasant Mothman</a>
+            <a class="dropdown-item" href="majestic.html">Majestic Theater</a>
+            <a class="dropdown-item" href="serpent.html">The Serpent Mound</a>
+            <a class="dropdown-item" href="stain.html">Margaret Shilling</a>
+            <a class="dropdown-item" href="moonville.html">Moonville Tunnel</a>
+          </div>
+        </li>
+      </ul>
+
+      <a class="return ml-auto" href="http://2020.soulofathens.com">Soul of Athens</a>
+
+  </nav>
+  <!-- navigation -->
+
   <div id="cork" class="container-fluid">
     <div id="bg-color" class="container-fluid">
+
 
       <div class="row padding-bottom padding-sides justify-content-center">
         <div class="col-lg-7">
@@ -47,8 +75,7 @@
         <!-- Video -->
         <div class="row">
           <div class="col-lg-12 videoWrapper">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/2v8mvwCGnnU" frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://player.vimeo.com/video/406911314" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
           </div>
         </div>
 
@@ -112,7 +139,7 @@
             <!-- Content Section 4 (Infographic) -->
             <div class="row">
               <div class="col-lg-12 text-center">
-                <img id="infographic" src="stain_images/infographic.png">
+                <img class="shadow" id="infographic" src="stain_images/the_stain-01.png">
               </div>
               </div>
 
@@ -149,33 +176,37 @@
           </div>
 
 
+          <footer>
+            <div id="footer-img">
+              <div class="row justify-content-center padding-sides">
+                <div class="col-lg-7">
+                  <div class="footer2">
+                    <div class="row justify-content-center baby-padding-top">
+                        <a href="serpent.html"><p class="text-left padding-right"> <i class="fas fa-chevron-left"></i> Previous </p></a>
+                        <a href="moonville.html"><p class="text-right padding-left">Next <i class="fas fa-chevron-right"></i> </p></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
+
+
+<!-- JavaScript dependencies: first jQuery, then Popper.js, then Bootstrap JS -->
+<script src='https://unpkg.com/jquery/dist/jquery.min.js'></script>
+<script src='https://unpkg.com/popper.js/dist/umd/popper.min.js'></script>
+<script src='https://unpkg.com/bootstrap/dist/js/bootstrap.min.js'></script>
+
+<!-- JS files for this project -->
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/scrolling.js"></script>
+
+<script src="js/anime.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+
+
+
 
 </body>
-
-
-
-<footer>
-  <div id="footer-img">
-    <div class="row justify-content-center padding-sides">
-      <div class="col-lg-7">
-        <div class="footer2">
-          <div class="row justify-content-center baby-padding-top">
-              <a href="serpent.html"><p class="text-left padding-right"> <i class="fas fa-chevron-left"></i> Previous </p></a>
-              <a href="moonville.html"><p class="text-right padding-left">Next <i class="fas fa-chevron-right"></i> </p></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
-
-
-
-
-
-
-
-
-
 
 </html>
