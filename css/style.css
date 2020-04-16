@@ -212,13 +212,7 @@ body {
 /* MEDIA QUERY */
 
 @media screen and (max-width: 1279px) {
-    .bkg-img-cover {
-       background-size: cover;
-    }
-    .row1 {
-        margin-top: 40%;
-    }
-    .row2 {
-        margin-top: 50%;
+    .display1 {
+      text-align: center;
     }
 }
