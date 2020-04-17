@@ -62,6 +62,9 @@
       <div class="row padding-bottom padding-sides justify-content-center">
         <div class="col-lg-7">
           <img class="img-fluid" src="stain_images/ridges.png">
+          <div class="row justify-content-center">
+            <i class="fas fa-chevron-down"></i>
+          </div>
       </div>
         </div>
 
@@ -80,17 +83,18 @@
         </div>
 
         <!-- Content Section 1 -->
+        <div class="container-fluid">
         <div class="row justify-content-center">
-          <div class="col-md-11 padding-sides padding-top double-padding-bottom">
+          <div class="col-lg-12 padding-sides padding-top padding-bottom">
             <div class="row justify-content-center">
 
               <div class="col-lg-5 padding-top">
                 <p>The Athens Mental Health and Development Center, a facility that is now known as The Ridges, was built in 1874. The main building is a towering brick structure that at it’s peak served more than 1,800 patients in 15 counties. Some of the first patients were those who suffered post-traumatic stress disorder as a result of conflict experienced in the Civil War and farm women who were struggling with raising large families. The Ridges is remembered by historians for it’s use of lombotomy and electro-shock techniques in treating patients, methods that were later criticized for their irreversible effects. For those who died as patients of the hospital, a cemetery behind the facility was used as a permanent resting place. Residents who were not claimed by family members were buried in a plot marked with a small headstone omitting their name and listing a number in its place.</p>
               </div>
 
-              <div class="col-lg-6">
-                <div class="row padding-sides padding-top">
-                  <img class="img-fluid shadow" src="stain_images/stain-archive1.jpg">
+              <div class="col-lg-5">
+                <div class="row padding-sides padding-top justify-content-center">
+                  <img class="shadow" src="stain_images/stain-archive1.jpg">
                 </div>
                   <div class="row">
                     <p class="caption">Construction of The Athens Mental Health and Development Center took six years to complete. The massive property, pictured above, sat on 700 acres of land that included farms, lakes and walking trails. Archival
@@ -101,6 +105,7 @@
               </div>
             </div>
           </div>
+        </div>
 
           <!-- Content Section 2 (Pull Quote) -->
 
@@ -108,7 +113,7 @@
             <div class="row">
               <div class="col-lg-8">
                 <div class="quote centered">
-                <div class="display-1 padding-sides">“It was like working in a museum. It was a wonderland of tile and wrought iron and giant carved doorframes.”</div>
+                <div class="display-1 padding-sides" id="pullquote">“It was like working in a museum. It was a wonderland of tile and wrought iron and giant carved doorframes.”</div>
               </div>
             </div>
           </div>
@@ -116,19 +121,19 @@
 
           <!-- Content Section 3 -->
           <div class="row justify-content-center">
-            <div class="col-md-11 padding-sides padding-top double-padding-bottom">
+            <div class="col-lg-12 padding-sides padding-top double-padding-bottom">
               <div class="row justify-content-center">
 
-                <div class="col-lg-6">
-                  <div class="row padding-sides padding-top">
-                    <img class="img-fluid shadow" src="stain_images/stain-archive2.jpg">
+                <div class="col-lg-5">
+                  <div class="row padding-sides padding-top justify-content-center">
+                    <img class="shadow" src="stain_images/stain-archive2.jpg">
                   </div>
                     <div class="row">
                       <p class="caption">A rare image of a patient inside of their room, most existing archival images of The Ridges were taken in the dining or living areas which hosted social events for residents. Archival image courtesy of George Eberts.</p>
                     </div>
                   </div>
 
-                  <div class="col-lg-5 padding-top padding-bottom">
+                  <div class="col-lg-5 padding-top">
                     <p>The building was originally designed as a facility that could house patients in one of two wings where they were divided by gender. The architect was influenced by the theories of Thomas Story Kirkbride, a physician who wrote the book <i>On the Construction, Organization and General Arrangements of Hospitals for the Insane</i> a text that emphasized the importance of exposure to natural light and air circulation when treating the mentally ill. This design resulted in a bat-wing type design that stretched across the grounds in two directions. Each end of the building was topped with a tower, a place that was hard to access unless you were able to locate the service stairway. It was a night in December when Schilling came upon that stairway, left open by workers who were servicing the aging property.  </p>
                   </div>
 
@@ -155,7 +160,7 @@
                 <div class="col-lg-8">
                   <img class="img-fluid shadow" src="stain_images/a83.jpg">
                   <div class="row">
-                    <p class="caption">The imprint left by Margaret Shilling's body, commonly referred to as "The Stain", is still visible to this day. It is said that if one touches The Stain, they'll become the victim of a lingering curse that
+                    <p class="caption2">The imprint left by Margaret Shilling's body, commonly referred to as "The Stain", is still visible to this day. It is said that if one touches The Stain, they'll become the victim of a lingering curse that
                       brings misery, misfortune and untimely death. Archival image courtesy of George Eberts.</p>
                   </div>
                 </div>
@@ -182,8 +187,8 @@
                 <div class="col-lg-7">
                   <div class="footer2">
                     <div class="row justify-content-center baby-padding-top">
-                        <a href="serpent.html"><p class="text-left padding-right"> <i class="fas fa-chevron-left"></i> Previous </p></a>
-                        <a href="moonville.html"><p class="text-right padding-left">Next <i class="fas fa-chevron-right"></i> </p></a>
+                        <a href="serpent.html"><p class="text-left padding-right"> <i class="fas fa-chevron-left"></i> Serpent Mound </p></a>
+                        <a href="moonville.html"><p class="text-right padding-left"> Moonville Tunnel <i class="fas fa-chevron-right"></i> </p></a>
                     </div>
                   </div>
                 </div>
@@ -203,6 +208,26 @@
 
 <script src="js/anime.min.js"></script>
 <script src="js/jquery.waypoints.min.js"></script>
+
+<script>
+
+jQuery(document).ready(function() {
+  $('#pullquote').waypoint(function() {
+    var CSStransforms =
+
+      anime({
+        targets: '#pullquote',
+        opacity: 1,
+        duration: 3000,
+        easing: 'easeInCubic',
+      });
+
+  }, {
+    offset: '90%'
+  });
+});
+
+</script>
 
 
 

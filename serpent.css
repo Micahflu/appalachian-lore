@@ -3,20 +3,17 @@
 
 /* BACKGROUNDS */
 #cork {
-  background-image: url('serpent_images/final_cork.jpg');
+  background-image: url('serpent_images/cork.jpg');
   background-position: center;
   background-repeat: repeat;
   background-size: 100%;
 }
-#headline-image img {
-  width: 65%;
-}
+
 #bg-color {
   background-image: url('serpent_images/texture2.jpg');
   background-position: center;
   background-repeat: repeat;
   width: 90%;
-
 }
 #footer-img{
   background-image: url('serpent_images/footer.jpg');
@@ -66,6 +63,9 @@
   letter-spacing: 1.1px;
   background-color: black;
 }
+.dropdown-item {
+  color: white;
+}
 .nav-link {
   font-family: 'Crimson Text', serif;
   color: white;
@@ -109,14 +109,13 @@ color: black;
   position: relative;
   text-align: left;
   font-family: 'Crimson Text', serif;
-  font-size: 30px;
+  font-size: 35px;
   letter-spacing: 1.2px;
 }
 p {
   font-family: 'Crimson Text', serif;
   font-size: 20px;
-  letter-spacing: 0.7px;
-
+  letter-spacing: 0.6px;
 }
 
 h1 {
@@ -129,8 +128,19 @@ h1 {
   letter-spacing: 0.3px;
   color: gray;
   padding-top: 1.5rem;
-  padding-left: 6rem;
-  padding-right: 6rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  text-align: center;
+}
+
+.caption2 {
+  font-family: 'Crimson Text', serif;
+  font-size: 12px;
+  letter-spacing: 0.3px;
+  color: gray;
+  padding-top: 1.5rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
   text-align: center;
 }
 
@@ -159,7 +169,7 @@ footer a:hover {
     padding-top: 2rem;
 }
 .double-padding-top {
-    padding-top: 4rem;
+    padding-top: 2rem;
 }
 .baby-padding-top {
     padding-top: 1.2rem;
@@ -177,8 +187,8 @@ footer a:hover {
   padding-left: 3rem;
 }
 .padding-sides {
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
 .centered {
   margin-top: 40%;
@@ -216,16 +226,72 @@ hr.style-seven {
     border-style: solid;
     border-color: black;
     border-width: 1px 0 0 0;
-    border-radius: 20px;
 }
-hr.style-seven:before { /* Not really supposed to work, but does */
-    display: block;
-    content: "";
-    height: 30px;
-    margin-top: -31px;
-    border-style: solid;
-    border-color: black;
-    border-width: 0 0 1px 0;
-    border-radius: 20px;
+
+#pullquote {
+  opacity: 0.2;
+}
+
+.fa-chevron-down {
+  font-size: 50px;
 }
 /* FANCY STUFF - INFOGRAPHICS, VIDEO, EFFECTS, ETC */
+
+@media screen and (max-width: 768px) {
+  .caption {
+    font-family: 'Crimson Text', serif;
+    font-size: 13px;
+    letter-spacing: 0.2px;
+    color: gray;
+    padding-top: 1.5rem;
+    padding-right:0.5rem;
+    padding-left: 0.5rem;
+    text-align: center;
+  }
+  .caption2 {
+    font-family: 'Crimson Text', serif;
+    font-size: 13px;
+    letter-spacing: 0.2px;
+    color: gray;
+    padding-top: 1.5rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    text-align: center;
+  }
+  p {
+    font-family: 'Crimson Text', serif;
+    font-size: 17px;
+    letter-spacing: 0.3px;
+  }
+  .parallax-img {
+    background-image: none;
+    max-height: 40px;
+  }
+  .quote{
+    margin-top: 20%;
+    background-image: none;
+    object-fit: contain;
+  }
+  .display-1 {
+    text-align: left;
+    font-family: 'Crimson Text', serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 4rem;
+    padding-top: 3rem;
+  }
+  .fa-chevron-down {
+    font-size: 30px;
+  }
+  #cork {
+    background-image: url('serpent_images/texture.jpg');
+    background-position: center;
+    background-repeat: repeat;
+    background-size: 100%;
+  }
+  #bg-color {
+    background-image: none;
+}
+}
