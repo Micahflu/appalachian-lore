@@ -300,10 +300,10 @@ hr.style-seven {
   }
   .parallax-img {
     background-image: none;
-    max-height: 40px;
+    min-height: 70px;
   }
   .quote{
-    margin-top: 20%;
+    margin-top: 10%;
     background-image: none;
     object-fit: contain;
   }
@@ -321,7 +321,7 @@ hr.style-seven {
     font-size: 30px;
   }
   #cork {
-    background-image: url('images/texture.jpg');
+    background-image: url('stain_images/texture.jpg');
     background-position: center;
     background-repeat: repeat;
     background-size: 100%;

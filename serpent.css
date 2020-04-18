@@ -14,11 +14,10 @@
   background-position: center;
   background-repeat: repeat;
   width: 90%;
-}in-height: 250px;
 }
 
 .parallax-img {
-  background-image: url('serpent_images/SM_drone.jpg');
+  background-image: url('images/SM_drone.jpg');
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -310,6 +309,7 @@ hr.style-seven {
     background-image: none;
     max-height: 40px;
   }
+
   .quote{
     margin-top: 20%;
     background-image: none;

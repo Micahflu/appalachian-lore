@@ -277,6 +277,9 @@ hr.style-seven {
 .fa-chevron-down {
   font-size: 50px;
 }
+.slide {
+  min-height: 70vh;
+}
 
 /* FANCY STUFF - INFOGRAPHICS, VIDEO, EFFECTS, ETC */
 
@@ -350,5 +353,8 @@ hr.style-seven {
   }
   footer p {
     font-size: 14px;
+  }
+  .slide {
+    min-height: 40vh;
   }
 }
