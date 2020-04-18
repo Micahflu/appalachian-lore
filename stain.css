@@ -146,6 +146,15 @@ footer a:hover {
   text-decoration: underline;
   text-decoration-style: thin;
 }
+.infotxt {
+font-family: 'Crimson Text', serif;
+font-size: 16px;
+letter-spacing: 0.3px;
+padding-top: 1.5rem;
+padding-left: 2.5rem;
+padding-right: 2.5rem;
+text-align: center;
+}
 /* FONTS */
 
 
