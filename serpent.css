@@ -58,7 +58,6 @@
 /* second footer for copyright*/
 #bottom-footer {
   background-image: url('images/footer_wood.jpg');
-  filter: drop-shadow(0 -0.5mm 1mm rgb(0,0,0));
   color: white;
   background-color: black;
   font-family: 'Crimson Text', serif;
