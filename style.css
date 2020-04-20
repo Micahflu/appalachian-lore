@@ -134,6 +134,27 @@ body {
   letter-spacing: 1.1px;
   text-decoration: underline;
 }
+.return:active {
+  font-family: 'Crimson Text', serif;
+  color: white;
+  font-size: 15px;
+  letter-spacing: 1.1px;
+  text-decoration: underline;
+}
+.return:focus {
+  font-family: 'Crimson Text', serif;
+  color: white;
+  font-size: 15px;
+  letter-spacing: 1.1px;
+  text-decoration: underline;
+}
+.return:visited {
+  font-family: 'Crimson Text', serif;
+  color: white;
+  font-size: 15px;
+  letter-spacing: 1.1px;
+  text-decoration: underline;
+}
 /* STYLES FOR NAV */
 
 
@@ -245,6 +266,9 @@ body {
 
 @media screen and (min-width: 2000px) {
     #row2 {
-      max-width: 100px;
+      max-width: 1000px;
+      text-align: center;
+      display: flex;
+      margin-left: 25%;
     }
 }
